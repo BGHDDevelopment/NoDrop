@@ -10,7 +10,6 @@ public class Main extends JavaPlugin {
 	getServer().getConsoleSender().sendMessage("NoDrop has been enabled!");
 	}
 	
-	
 	@Override
 	public void onDisable() {
 	getServer().getConsoleSender().sendMessage("NoDrop has been disabled!");
