@@ -11,6 +11,6 @@ public class Event implements Listener {
 	  @EventHandler
 	  public void onThrow(PlayerDropItemEvent e)
 	  {
-		  event.setCancelled(!event.getPlayer().hasPermission("drop.allow"));
+		  event.setCancelled(!e.getPlayer().hasPermission("drop.allow"));
 	  }
 	}
