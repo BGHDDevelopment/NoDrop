@@ -17,8 +17,5 @@ public class Event implements Listener {
 	    if (!player.hasPermission("drop.allow"))  {
 	    e.setCancelled(true);
 	    }
-	    if (player.hasPermission("drop.allow")) {
-	      e.setCancelled(false);
-	    }
 	  }
 	}
