@@ -1,0 +1,4 @@
+name: NoDrop
+version: ${project.version}
+main: me.noodles.nodrop.Main
+authors: [BGHDDevelopment]

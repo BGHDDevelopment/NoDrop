@@ -6,9 +6,9 @@ import org.bukkit.event.player.PlayerDropItemEvent;
 
 public class Event implements Listener {
 
-	  @EventHandler
-	  public void onThrow(PlayerDropItemEvent e)
-	  {
-		  e.setCancelled(!e.getPlayer().hasPermission("drop.allow"));
-	  }
-	}
+    @EventHandler
+    public void onThrow(PlayerDropItemEvent e) {
+        e.setCancelled(!e.getPlayer().hasPermission("drop.allow"));
+    }
+
+}

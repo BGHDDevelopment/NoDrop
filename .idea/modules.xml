@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/NoItemDrop/NoItemDrop.iml" filepath="$PROJECT_DIR$/NoItemDrop/NoItemDrop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nodrop.iml" filepath="$PROJECT_DIR$/nodrop.iml" />
     </modules>
   </component>
 </project>
