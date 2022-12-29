@@ -1,4 +1,4 @@
-package me.noodles.nodrop;
+package com.bghddevelopment.drop.events;
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
